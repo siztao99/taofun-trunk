@@ -4,6 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.taofun.root</groupId>
+        <artifactId>taofun-boot-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
     <groupId>com.taofun.boot</groupId>
     <artifactId>taofun-trunk</artifactId>
     <packaging>pom</packaging>
@@ -14,6 +19,7 @@
         <module>taofun-rbac-service</module>
         <module>taofun-cloud-gate</module>
         <module>taofun-boot-app</module>
+        <module>taofun-cloud</module>
     </modules>
 
     <properties>
@@ -31,6 +37,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 
 
 </project>
