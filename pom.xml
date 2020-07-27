@@ -13,6 +13,7 @@
         <module>taofun-rbac-api</module>
         <module>taofun-rbac-service</module>
         <module>taofun-cloud-gate</module>
+        <module>taofun-boot-app</module>
     </modules>
 
     <properties>
