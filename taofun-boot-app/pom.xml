@@ -17,10 +17,7 @@
         <tracer.version>3.0.5</tracer.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>healthcheck-sofa-boot-starter</artifactId>
-        </dependency>
+
 
         <!-- spring cloud config 客户端包 -->
         <dependency>
@@ -35,10 +32,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>healthcheck-sofa-boot-starter</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>

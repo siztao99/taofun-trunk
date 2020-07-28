@@ -10,28 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>taofun-cloud-static</artifactId>
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>healthcheck-sofa-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>tracer-sofa-boot-starter</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.alipay.sofa</groupId>
-                    <artifactId>sofa-tracer-spring-cloud-plugin</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
     </dependencies>
 
     <build>

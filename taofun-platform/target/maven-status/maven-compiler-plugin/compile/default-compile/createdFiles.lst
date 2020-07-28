@@ -1,0 +1,10 @@
+com\taofun\boot\platform\rbac\web\ShowApi.class
+com\taofun\boot\platform\rbac\domain\vo\UserVO.class
+com\taofun\boot\platform\rbac\web\UserController.class
+com\taofun\boot\TFApplication.class
+com\taofun\boot\config\Swagger2Config.class
+com\taofun\boot\platform\rbac\dao\UserMapper.class
+com\taofun\boot\platform\rbac\domain\model\Results.class
+com\taofun\boot\platform\rbac\domain\entity\UserInfo.class
+com\taofun\boot\config\CorsConfig.class
+com\taofun\boot\config\AdminWebMvcConfig.class

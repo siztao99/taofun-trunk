@@ -1,0 +1,21 @@
+server:
+  port: 3011
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+data:
+  env: NaN
+  user:
+    username: NaN
+    password: NaN
+logging:
+  path: ./logs
+  level:
+    com:
+      taofun:
+        boot: info

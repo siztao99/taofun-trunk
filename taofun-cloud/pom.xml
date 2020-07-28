@@ -16,7 +16,13 @@
         <module>taofun-cloud-eureka</module>
         <module>taofun-cloud-static</module>
         <module>taofun-cloud-monitor</module>
+        <module>taofun-cloud-nacos</module>
+        <module>nacos-config-server</module>
     </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
 
     <build>
         <pluginManagement>
