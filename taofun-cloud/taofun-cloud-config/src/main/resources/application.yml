@@ -1,0 +1,23 @@
+server:
+  port: 3012
+eureka:
+  client:
+    serviceUrl:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://test:123456@localhost:3000/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    preferIpAddress: true
+spring:
+  application:
+    name: config-eureka-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/siztao99/taofun-cloud-config
+          username: siztao_99@hotmail.com
+          password: sd100123
+          default-label: master
+          search-paths: config

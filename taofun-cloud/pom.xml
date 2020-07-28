@@ -14,8 +14,29 @@
     <modules>
         <module>taofun-cloud-config</module>
         <module>taofun-cloud-eureka</module>
+        <module>taofun-cloud-static</module>
+        <module>taofun-cloud-monitor</module>
     </modules>
 
-
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot-dependencies.version}</version>
+                    <configuration>
+                        <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
