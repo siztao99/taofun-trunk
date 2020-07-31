@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="31e21efd-03eb-40d6-a86b-77efa32d0826" name="Default Changelist" comment="" />
+    <list default="true" id="31e21efd-03eb-40d6-a86b-77efa32d0826" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taofun-boot-app/src/main/resources/tb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-boot-app/src/main/java/com/taofun/boot/app/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taofun-boot-app/src/main/java/com/taofun/boot/app/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-boot-app/taofun-boot-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud-gate/taofun-cloud-gate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud/nacos-config-server/nacos-config-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud/taofun-cloud-config/taofun-cloud-config.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud/taofun-cloud-eureka/taofun-cloud-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud/taofun-cloud-monitor/taofun-cloud-monitor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud/taofun-cloud-nacos/taofun-cloud-nacos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud/taofun-cloud-static/taofun-cloud-static.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-cloud/taofun-cloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-platform/taofun-platform.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-rbac-api/taofun-rbac-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-rbac-service/taofun-rbac-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taofun-trunk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taofun-trunk.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +52,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/Programe/apache-maven-3.5.4" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Program/apache-maven-3.5.3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -31,31 +69,70 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../taofun-root" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+  <component name="RunManager" selected="Spring Boot.NacosConfigServerApplication">
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taofun-cloud-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taofun.boot.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taofun-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taofun.boot.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taofun.boot.config.NacosConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosDiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taofun-cloud-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taofun.boot.NacosDiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taofun-cloud-gate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taofun.boot.SpringGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticResApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taofun-cloud-static" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taofun.boot.StaticResApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TFApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taofun-platform" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taofun.boot.TFApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -68,16 +145,66 @@
       <option name="presentableId" value="Default" />
       <updated>1595860610526</updated>
       <workItem from="1595860613518" duration="44000" />
+      <workItem from="1596197965727" duration="44000" />
+      <workItem from="1596198011969" duration="11000" />
+      <workItem from="1596198058282" duration="44000" />
+      <workItem from="1596198103573" duration="28000" />
+      <workItem from="1596198132965" duration="302000" />
+      <workItem from="1596198437265" duration="216000" />
+      <workItem from="1596198655318" duration="107000" />
+      <workItem from="1596198961052" duration="41000" />
+      <workItem from="1596199005126" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="35" key="SettingsEditor" timestamp="1595860641611">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="390" y="212" key="#docker/Dockerfile" timestamp="1596198146118">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="390" y="212" key="#docker/Dockerfile/0.0.2560.1400@0.0.2560.1400" timestamp="1596198146118" />
+    <state x="390" y="212" key="#taofun-boot-app/Dockerfile" timestamp="1596198144931">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="390" y="212" key="#taofun-boot-app/Dockerfile/0.0.2560.1400@0.0.2560.1400" timestamp="1596198144931" />
+    <state x="910" y="464" key="FileChooserDialogImpl" timestamp="1596198671353">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="910" y="464" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596198671353" />
+    <state width="1131" height="355" key="GridCell.Tab.0.bottom" timestamp="1596198131080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1131" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596198131080" />
+    <state width="1131" height="355" key="GridCell.Tab.0.center" timestamp="1596198131080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1131" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596198131080" />
+    <state width="1131" height="355" key="GridCell.Tab.0.left" timestamp="1596198131080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1131" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596198131080" />
+    <state width="1131" height="355" key="GridCell.Tab.0.right" timestamp="1596198131080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1131" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596198131080" />
+    <state x="393" y="19" key="SettingsEditor" timestamp="1596198430499">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="393" y="19" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596198430499" />
     <state x="221" y="35" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1595860641611" />
   </component>
 </project>

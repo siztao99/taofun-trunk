@@ -3,7 +3,7 @@ package com.taofun.boot.app.utils.common;
 /**
  * 进制转换工具
  * @author
- * @date 2018/8/31 17:23
+ * @date 2020/7/31 17:23
  */
 public class HexConvertUtil {
 
@@ -24,7 +24,7 @@ public class HexConvertUtil {
      * @param bytes
      * @return java.lang.String
      * @author
-     * @date 2018/8/31 17:20
+     * @date 2020/7/31 17:20
      */
     public static String parseByte2HexStr(byte[] bytes) {
         StringBuilder sb = new StringBuilder();
@@ -43,7 +43,7 @@ public class HexConvertUtil {
      * @param hexStr
      * @return byte[]
      * @author
-     * @date 2018/8/31 17:21
+     * @date 2020/7/31 17:21
      */
     public static byte[] parseHexStr2Byte(String hexStr) {
         if (hexStr.length() < INTEGER_1) {

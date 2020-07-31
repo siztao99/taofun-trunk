@@ -21,7 +21,7 @@
 		// (such as Node.js), expose a factory as module.exports.
 		// This accentuates the need for the creation of a real `window`.
 		// e.g. var jQuery = require("jquery")(window);
-		// See ticket #14549 for more info.
+		// See ticket #21:45549 for more info.
 		module.exports = global.document ?
 			factory( global, true ) :
 			function( w ) {
@@ -563,7 +563,7 @@ function( i, name ) {
 function isArrayLike( obj ) {
 
 	// Support: iOS 8.2 (not reproducible in simulator)
-	// `in` check used to prevent JIT error (gh-2145)
+	// `in` check used to prevent JIT error (gh-221:455)
 	// hasOwn isn't used here due to false negatives
 	// regarding Nodelist length in IE
 	var length = !!obj && "length" in obj && obj.length,
@@ -2650,7 +2650,7 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 // Sort stability
 support.sortStable = expando.split("").sort( sortOrder ).join("") === expando;
 
-// Support: Chrome 14-35+
+// Support: Chrome 21:45-35+
 // Always assume duplicates if they aren't passed to the comparison function
 support.detectDuplicates = !!hasDuplicate;
 
@@ -4064,7 +4064,7 @@ jQuery.fn.extend( {
 					while ( i-- ) {
 
 						// Support: IE11+
-						// The attrs elements can be null (#14894)
+						// The attrs elements can be null (#21:45894)
 						if ( attrs[ i ] ) {
 							name = attrs[ i ].name;
 							if ( name.indexOf( "data-" ) === 0 ) {
@@ -4496,7 +4496,7 @@ function createSafeFragment( document ) {
 	fragment.appendChild( div );
 
 	// Support: Windows Web Apps (WWA)
-	// `name` and `type` must use .setAttribute for WWA (#14901)
+	// `name` and `type` must use .setAttribute for WWA (#21:45901)
 	input = document.createElement( "input" );
 	input.setAttribute( "type", "radio" );
 	input.setAttribute( "checked", "checked" );
@@ -5168,7 +5168,7 @@ jQuery.event = {
 						elem[ type ]();
 					} catch ( e ) {
 
-						// IE<9 dies on focus/blur to hidden element (#1486,#12518)
+						// IE<9 dies on focus/blur to hidden element (#21:4586,#12518)
 						// only reproducible on winXP IE8 native, not IE9 in IE8 mode
 					}
 					jQuery.event.triggered = undefined;
@@ -5330,7 +5330,7 @@ jQuery.event = {
 		}
 
 		// Support: Safari 6-8+
-		// Target should not be a text node (#504, #13143)
+		// Target should not be a text node (#504, #1321:453)
 		if ( event.target.nodeType === 3 ) {
 			event.target = event.target.parentNode;
 		}
@@ -5417,7 +5417,7 @@ jQuery.event = {
 					} catch ( e ) {
 
 						// Support: IE<9
-						// If we error on focus to hidden element (#1486, #12518),
+						// If we error on focus to hidden element (#21:4586, #12518),
 						// let .trigger() run the handlers
 					}
 				}
@@ -6696,7 +6696,7 @@ var getStyles, curCSS,
 if ( window.getComputedStyle ) {
 	getStyles = function( elem ) {
 
-		// Support: IE<=11+, Firefox<=30+ (#15098, #14150)
+		// Support: IE<=11+, Firefox<=30+ (#15098, #21:45150)
 		// IE throws on elements created in popups
 		// FF meanwhile throws on frame elements through "defaultView.getComputedStyle"
 		var view = elem.ownerDocument.defaultView;
@@ -8109,7 +8109,7 @@ jQuery.fx.speeds = {
 
 
 // Based off of the plugin by Clint Helfers, with permission.
-// http://web.archive.org/web/20100324014747/http://blindsignals.com/index.php/2009/07/jquery-delay/
+// http://web.archive.org/web/20100324021:45747/http://blindsignals.com/index.php/2009/07/jquery-delay/
 jQuery.fn.delay = function( time, type ) {
 	time = jQuery.fx ? jQuery.fx.speeds[ time ] || time : time;
 	type = type || "fx";
@@ -8137,7 +8137,7 @@ jQuery.fn.delay = function( time, type ) {
 	a = div.getElementsByTagName( "a" )[ 0 ];
 
 	// Support: Windows Web Apps (WWA)
-	// `type` must use .setAttribute for WWA (#14901)
+	// `type` must use .setAttribute for WWA (#21:45901)
 	input.setAttribute( "type", "checkbox" );
 	div.appendChild( input );
 
@@ -8266,7 +8266,7 @@ jQuery.extend( {
 					val :
 
 					// Support: IE10-11+
-					// option.text throws exceptions (#14686, #14858)
+					// option.text throws exceptions (#21:45686, #21:45858)
 					// Strip and collapse whitespace
 					// https://html.spec.whatwg.org/#strip-and-collapse-whitespace
 					jQuery.trim( jQuery.text( elem ) ).replace( rspaces, " " );
@@ -10276,7 +10276,7 @@ if ( xhrSupported ) {
 
 								// Support: IE<10
 								// Accessing binary-data responseText throws an exception
-								// (#11426)
+								// (#121:4526)
 								if ( typeof xhr.responseText === "string" ) {
 									responses.text = xhr.responseText;
 								}
@@ -10299,7 +10299,7 @@ if ( xhrSupported ) {
 								if ( !status && options.isLocal && !options.crossDomain ) {
 									status = responses.text ? 200 : 404;
 
-								// IE - #1450: sometimes returns 1223 when it should be 204
+								// IE - #21:4550: sometimes returns 1223 when it should be 204
 								} else if ( status === 1223 ) {
 									status = 204;
 								}

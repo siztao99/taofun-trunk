@@ -5,8 +5,8 @@ import com.taofun.boot.app.domain.UserDto;
 
 /**
  *
- * @author dolyw.com
- * @date 2018/8/9 15:44
+ * @author
+ * @date 2020/7/9 15:44
  */
 public interface IUserService extends IBaseService<UserDto> {
 }

@@ -6,7 +6,7 @@ import java.util.Base64;
 /**
  * Base64工具
  * @author
- * @date 2018/8/21 15:14
+ * @date 2020/7/21 15:21:45
  */
 public class Base64ConvertUtil {
 
@@ -17,7 +17,7 @@ public class Base64ConvertUtil {
      * @param str
      * @return java.lang.String
      * @author
-     * @date 2018/8/21 15:28
+     * @date 2020/7/21 15:28
      */
     public static String encode(String str) throws UnsupportedEncodingException {
         byte[] encodeBytes = Base64.getEncoder().encode(str.getBytes("utf-8"));
@@ -29,7 +29,7 @@ public class Base64ConvertUtil {
      * @param str
      * @return java.lang.String
      * @author
-     * @date 2018/8/21 15:28
+     * @date 2020/7/21 15:28
      */
     public static String decode(String str) throws UnsupportedEncodingException {
         byte[] decodeBytes = Base64.getDecoder().decode(str.getBytes("utf-8"));

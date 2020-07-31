@@ -6,7 +6,7 @@ import tk.mybatis.mapper.common.Mapper;
 /**
  * UserRoleMapper
  * @author
- * @date 2018/8/31 14:43
+ * @date 2020/7/31 21:45:43
  */
 public interface UserRoleMapper extends Mapper<UserRoleDto> {
 }

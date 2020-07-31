@@ -8,7 +8,7 @@ import javax.persistence.Table;
 /**
  *
  * @author
- * @date 2018/8/30 10:48
+ * @date 2020/7/30 10:48
  */
 @Table(name = "permission")
 public class PermissionDto extends Permission {

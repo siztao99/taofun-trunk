@@ -19,7 +19,7 @@ import java.util.Date;
 /**
  * JAVA-JWT工具类
  * @author Wang926454
- * @date 2018/8/30 11:45
+ * @date 2020/7/30 11:45
  */
 @Component
 public class JwtUtil {
@@ -54,7 +54,7 @@ public class JwtUtil {
      * @param token Token
      * @return boolean 是否正确
      * @author Wang926454
-     * @date 2018/8/31 9:05
+     * @date 2020/7/31 9:05
      */
     public static boolean verify(String token) {
         try {
@@ -94,7 +94,7 @@ public class JwtUtil {
      * @param account 帐号
      * @return java.lang.String 返回加密的Token
      * @author Wang926454
-     * @date 2018/8/31 9:07
+     * @date 2020/7/31 9:07
      */
     public static String sign(String account, String currentTimeMillis) {
         try {

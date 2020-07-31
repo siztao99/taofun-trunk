@@ -13,7 +13,7 @@ import java.util.Properties;
 /**
  * Properties工具
  * @author
- * @date 2018/8/31 17:29
+ * @date 2020/7/31 17:29
  */
 public class PropertiesUtil {
 
@@ -34,7 +34,7 @@ public class PropertiesUtil {
      * @param fileName
      * @return void
      * @author
-     * @date 2018/8/31 17:29
+     * @date 2020/7/31 17:29
      */
     public static void readProperties(String fileName) {
         InputStream in = null;
@@ -62,7 +62,7 @@ public class PropertiesUtil {
      * @param key
      * @return java.lang.String
      * @author
-     * @date 2018/8/31 17:29
+     * @date 2020/7/31 17:29
      */
     public static String getProperty(String key){
         return PROP.getProperty(key);

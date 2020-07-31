@@ -3,7 +3,7 @@ package com.taofun.boot.app.domain.common;
 /**
  * ResponseBean
  * @author
- * @date 2018/8/30 11:39
+ * @date 2020/7/30 11:39
  */
 public class ResponseBean {
     /**

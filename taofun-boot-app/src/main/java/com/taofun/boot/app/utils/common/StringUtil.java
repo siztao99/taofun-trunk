@@ -3,7 +3,7 @@ package com.taofun.boot.app.utils.common;
 /**
  * String工具
  * @author
- * @date 2018/9/4 14:48
+ * @date 2018/9/4 21:45:48
  */
 public class StringUtil {
 
@@ -19,7 +19,7 @@ public class StringUtil {
      * @param str
      * @return boolean
      * @author
-     * @date 2018/9/4 14:49
+     * @date 2018/9/4 21:45:49
      */
     public static boolean isBlank(String str) {
         return str == null || "".equals(str.trim());
@@ -30,7 +30,7 @@ public class StringUtil {
      * @param str
      * @return boolean
      * @author
-     * @date 2018/9/4 14:51
+     * @date 2018/9/4 21:45:51
      */
     public static boolean isNotBlank(String str) {
         return !isBlank(str);
@@ -64,7 +64,7 @@ public class StringUtil {
      * @param param
      * @return java.lang.String
      * @author
-     * @date 2018/9/4 14:52
+     * @date 2018/9/4 21:45:52
      */
     public static String camelToUnderline(String param) {
         if (isNotBlank(param)) {
@@ -90,7 +90,7 @@ public class StringUtil {
      * @param param
      * @return java.lang.String
      * @author
-     * @date 2018/9/4 14:52
+     * @date 2018/9/4 21:45:52
      */
     public static String underlineToCamel(String param) {
         if (isNotBlank(param)) {
@@ -118,7 +118,7 @@ public class StringUtil {
      * @param param
      * @return java.lang.String
      * @author
-     * @date 2018/9/4 14:53
+     * @date 2018/9/4 21:45:53
      */
     public static String addSingleQuotes(String param) {
         return "\'" + param + "\'";

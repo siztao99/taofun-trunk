@@ -9,8 +9,8 @@ import java.util.List;
 
 /**
  *
- * @author dolyw.com
- * @date 2018/8/9 15:45
+ * @author
+ * @date 2020/7/9 22:45
  */
 public abstract class BaseServiceImpl<T> implements IBaseService<T> {
 

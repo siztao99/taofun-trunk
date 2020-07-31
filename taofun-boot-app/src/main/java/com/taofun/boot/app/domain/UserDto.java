@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  *
  * @author
- * @date 2018/8/30 10:34
+ * @date 2020/7/30 10:34
  */
 @Table(name = "user")
 public class UserDto extends User {

@@ -6,7 +6,7 @@ import java.io.Serializable;
 /**
  * UserRole
  * @author
- * @date 2018/8/31 14:43
+ * @date 2020/7/31 21:45:43
  */
 @Table(name = "user_role")
 public class UserRole implements Serializable {

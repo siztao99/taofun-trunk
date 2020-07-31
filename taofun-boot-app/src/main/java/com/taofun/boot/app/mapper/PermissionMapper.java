@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * PermissionMapper
  * @author
- * @date 2018/8/31 14:42
+ * @date 2020/7/31 21:45:42
  */
 public interface PermissionMapper extends Mapper<PermissionDto> {
     /**
@@ -17,7 +17,7 @@ public interface PermissionMapper extends Mapper<PermissionDto> {
      * @param roleDto
      * @return java.util.List<com.wang.model.PermissionDto>
      * @author
-     * @date 2018/8/31 11:30
+     * @date 2020/7/31 11:30
      */
     List<PermissionDto> findPermissionByRole(RoleDto roleDto);
 }

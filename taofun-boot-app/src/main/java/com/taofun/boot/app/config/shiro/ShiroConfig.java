@@ -21,7 +21,7 @@ import java.util.Map;
 /**
  * Shiro配置
  * @author
- * @date 2018/8/30 15:49
+ * @date 2020/7/30 15:49
  */
 @Configuration
 public class ShiroConfig {
@@ -32,7 +32,7 @@ public class ShiroConfig {
      * @param userRealm
      * @return org.apache.shiro.web.mgt.DefaultWebSecurityManager
      * @author
-     * @date 2018/8/31 10:55
+     * @date 2020/7/31 10:55
      */
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     @Bean("securityManager")
@@ -67,7 +67,7 @@ public class ShiroConfig {
      * @param securityManager
      * @return org.apache.shiro.spring.web.ShiroFilterFactoryBean
      * @author
-     * @date 2018/8/31 10:57
+     * @date 2020/7/31 10:57
      */
     @Bean("shiroFilter")
     public ShiroFilterFactoryBean shiroFilterFactoryBean(DefaultWebSecurityManager securityManager) {

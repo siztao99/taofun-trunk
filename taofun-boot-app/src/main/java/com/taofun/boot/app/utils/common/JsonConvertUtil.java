@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 /**
  * Json和Object的互相转换，转List必须Json最外层加[]，转Object，Json最外层不要加[]
  * @author
- * @date 2018/8/9 15:37
+ * @date 2020/7/9 15:37
  */
 public class JsonConvertUtil {
 

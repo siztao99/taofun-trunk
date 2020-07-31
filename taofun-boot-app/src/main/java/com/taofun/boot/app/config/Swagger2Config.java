@@ -30,7 +30,7 @@ public class Swagger2Config {
         return new ApiInfoBuilder()
                 .title("项目接口文档")
                 .description("服务相关接口")
-                .contact(new Contact("郭艺宾",null,"guoyb1990@163.com"))
+                .contact(new Contact("siztao",null,"982637685@qq.com"))
                 .version("1.0")
                 .build();
     }

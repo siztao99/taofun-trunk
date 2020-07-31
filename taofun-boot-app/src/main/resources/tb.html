@@ -1,0 +1,37 @@
+<div class="rowSpan" width="100%">
+    <ul>
+        <li class="formSpan">
+            <label class="lable_text" style="font-family:Verdana;">姓名:</label>
+            <input id="A0101" name = "A0101" class="mini-textbox">
+        </li>
+        <li class="formSpan">
+            <label class="lable_text" style="font-family:Verdana;">填报时单位及职务:</label>
+            <input id="A0215" name = "A0215" class="mini-textbox">
+        </li>
+        <li class="formSpan">
+            <label class="lable_text" style="font-family:Verdana;">年度:</label>
+            <input id="ND" name = "ND" class="mini-combobox" textField="text" valueField="id" showNullItem="true" allowInput="true">
+        </li>
+        <li class="formSpan">
+            <label class="lable_text" style="font-family:Verdana;">产权人姓名: </label>
+            <input id="A80601" name = "A80601" class="mini-textbox">
+        </li>
+        <li class="formSpan">
+            <label class="lable_text" style="font-family:Verdana;">房产来源（去向）: </label>
+            <input id="A80602" name = "A80602" class="mini-combobox bd_gbjd2812" textField="DMCPT" valueField="DMCOD" showNullItem="true" value="" dataField="Data.JDYJ_DM_08" url="/formdesign/form/CodeTable/getCodeTable?tableNames=JDYJ_DM_08" />
+        </li>
+        <li class="formSpan">
+	            	<span>
+			       		<a class="block_btn" id="searchButton">搜索</a>
+			       		<a class="block_btn" id="resetButton">重置</a>
+			    	</span>
+        </li>
+    </ul>
+    <div  class="ButtonsSpan">
+        <a class="block_btn" id="addButton">新增</a>
+        <a class="block_btn" id="updateButton">修改</a>
+        <a class="block_btn" id="deleteButton">删除</a>
+        <a class="block_btn" id="exportButton">导出</a>
+        <a class="block_btn" id="importButton">导入</a>
+    </div>
+</div>
